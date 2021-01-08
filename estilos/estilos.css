@@ -593,6 +593,26 @@ color: #060a24;
 font-size: 16px;
 line-height: 20px;
 }
+.about-container{
+
+  width:70%;
+    
+ }
+ .description{
+   margin: auto;
+   word-spacing: 4px;
+ width: 39%;
+   
+ }
+ .secondary-title{
+  font-family: "IBM Plex Sans" , sans-serif;
+  font-size: 36px;
+ display:inline;
+ line-height: 90px;
+
+
+}
+
 
 
 

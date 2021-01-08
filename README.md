@@ -13,4 +13,3 @@ https://canaldepodcasts.netlify.app/
 <img src="https://github.com/flopixx/flopixx.github.io-/blob/master/images/Canal-de-podcasts%20(1).png">
 
 
-<img src="https://github.com/flopixx/flopixx.github.io-/blob/master/images/Canal-de-podcasts.png">
