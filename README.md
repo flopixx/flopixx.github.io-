@@ -7,9 +7,13 @@ El desafío está enfocado en el maquetado de la landing page de un canal de Pod
 
 
 vivo 🌈
+
 https://canaldepodcasts.netlify.app/
 
-
 <img src="https://github.com/flopixx/flopixx.github.io-/blob/master/images/Canal-de-podcasts%20(1).png">
+
+
+<img src="https://github.com/flopixx/flopixx.github.io-/blob/master/images/Canal-de-podcasts.png">
+
 
 
