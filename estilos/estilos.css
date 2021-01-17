@@ -1,7 +1,7 @@
-@import  url( "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" );
-@import  url( "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap" );
-@import  url( "https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300&display=swap" );
-@import  url( "https://fonts.googleapis.com/css?family=Poppins&display=swap" );
+@import  url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+@import  url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap");
+@import  url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300&display=swap");
+@import  url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 
 
 *{
@@ -10,12 +10,12 @@
     -webkit-box-sizing: border-box;
    box-sizing: border-box;
 }
+/* breakpoints movil */
 
 header{
   padding:20px 20px;
   position: relative;
 }
-
 
 
 
@@ -64,12 +64,7 @@ header{
 .nav-menu ul{
   list-style: none;
   padding: 6px 35px;
-  
- 
-  
-  
-   
- 
+
  
   
 }
@@ -114,7 +109,7 @@ display: block;
  height: 100%;
  margin-top: 40px;
  margin-bottom: 16px;
- margin-left: 16px;
+ margin-left: 10px;
 
 
 
@@ -136,7 +131,7 @@ line-height: 40px;
 
     
   }
-.title .parrafo{
+.title .paragraph{
   display:block;
     font-family : "IBM Plex Mono" ,sans-serif;
     font-size : 16px;
@@ -172,21 +167,24 @@ line-height: 40px;
    color: #FFFFFF ;
     
   }
-  .capitulos{
+  .chapters{
       position: relative;
       padding-top: 4rem;
   }
   
 
- .capitulos-elementos iframe {
-   max-width: 90%;
+ .chapters-elements iframe {
+   max-width: 100%;
+   width: 320px;
     height: 232px;
-    margin:0 auto;
-    border: none;
-    margin: 10px 30px; 
+    border: 0px;
+    margin:7px 20px;
+   
+   
+     
 
   }
-  .segundo-titulo{
+  .second-title{
       font-family: "IBM Plex Sans" , sans-serif;
      color: white;  
    font-size : 30px;
@@ -202,13 +200,14 @@ line-height: 40px;
   bottom: 0;
   right: 0;
   left:0;
- clip-path : polygon( 0  3% ,  100%  0 ,  100%  95% ,  0%  100% );
- clip-path :polygon( 0  3% ,  100%  0 ,  100%  95% ,  0%  100% );
- height: 1300px;
+ clip-path: polygon( 0  3% ,  100%  0 ,  100%  95% ,  0%  100% );
+ clip-path:polygon( 0  3% ,  100%  0 ,  100%  95% ,  0%  100% );
+ height: 1400px;
  background: linear-gradient( 225deg ,  #0000ff  0% ,  #0000a3  100% );;
  z-index: -1;
 
   }
+  
  .about, .about-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -224,13 +223,18 @@ line-height: 40px;
   .about-container  #celphone {
       width: 340px;
     height: 519px ;
-    transform : translateY(-5px);
-   transform: translateX(5px);
+    transform: translateY(15px);
+
+
    
   }
+ 
+
   .about-container,  .description, .secondary-title{
 
    width:90%;
+   padding: 20px 0;
+  
      
   }
   .description{
@@ -253,7 +257,10 @@ line-height: 40px;
     font-size: 14px;
    line-height: 22px;
   }
-  .contenedor-entrevistas {
+  .container-interviews img{
+    width: 100%;
+  }
+  .container-interviews {
     
     display:grid;
     grid-template-columns: repeat(1,1fr);
@@ -262,9 +269,7 @@ line-height: 40px;
  
   }
   
-
-
-.entrevistas .segundo{
+.interviews .second{
   font-family: "IBM Plex Sans", sans-serif;
    display: block;
     margin-left: 20px;
@@ -289,7 +294,7 @@ line-height: 40px;
   .topics-container{
     margin: 50px auto;
   }
-  .tema{
+  .topic{
     padding:1em 0;
   }
   .topics-container .topic-title {
@@ -300,7 +305,7 @@ line-height: 40px;
     font-weight: 600;
     margin: 10px 0;
   }
-  .titulo-oscuro{
+  .dark-title{
     font-family: "IBM Plex Sans" , sans-serif;
     font-size: 30px;
     margin-left: 0.6em;
@@ -484,7 +489,7 @@ font-size: 64px;
    
   
 }
-.title .parrafo {
+.title .paragraph {
  font-family: "IBM Plex Mono" ,monospace;
  font-size: 16px ;
  text-align: justify;
@@ -492,12 +497,12 @@ font-size: 64px;
  
 }
 .bg-polygon {
-  -webkit-clip-path:polygon( 0 15% ,  100%  0 ,  100%  85% ,  0%  100% );
-          clip-path:polygon( 0  15% ,  100%  0 ,  100%  85% ,  0%  100% );
-  height: 1000px;
+  -webkit-clip-path:polygon( 0 14% ,  100%  0 ,  100%  85% ,  0%  100% );
+          clip-path:polygon( 0  14% ,  100%  0 ,  100%  85% ,  0%  100% );
+  height: 950px;
   z-index: -1 ;
 }
-.capitulos-elementos{
+.chapters-elements{
   display: grid;
   grid-template-columns: repeat(2,1fr);
  
@@ -505,22 +510,36 @@ font-size: 64px;
  
   
 }
-.capitulos{
+.chapters{
   padding: 5rem;
 }
 
 
 
-.capitulos-elementos iframe{
-  width: 500px;
-  height: 240px;
+.chapters-elements iframe{
+  width:584px;
+  height: 232px;
+  margin-bottom: 20px;
+
+  
+ 
 }
-.capitulos .segundo-titulo{
+
+.chapters .second-title{
   font-family:  "IBM Plex Sans" , sans-serif;
   font-size: 48px;
   text-align: justify;
   margin: 30px 20px 0 0;
   
+}
+
+.about-container  #celphone {
+  width: 340px;
+height: 519px ;
+transform: translateY(-40px);
+
+
+
 }
 .about ,.about-container {
  display: -webkit-box;
@@ -537,14 +556,26 @@ font-size: 64px;
       -ms-flex-align: center;
        align-items: center;
 }
-.contenedor-entrevistas {
+.about-container{
+
+  width:65%;
+    
+ }
+.about-container,  .description, .secondary-title{
+
+  width:90%;
+  padding: 20px 0;
+ 
+    
+ }
+.container-interviews{
   
   display:grid;
   grid-template-columns: repeat(3,1fr);
   margin: 0;
   padding: 0;
 }
-.entrevistas .segundo{
+.interviews .second{
  
   margin:0 0 20px 100px;
   line-height: 42px;
@@ -567,11 +598,11 @@ font-size: 64px;
  margin:0 120px;
   
 }
-.tema{
+.topic{
   padding: 1em 0;
 }
 
-.titulo-oscuro{
+.dark.title{
   font-family:"IBM Plex Sans" , sans-serif ;
   font-size: 48px;
   color: #060A24;
