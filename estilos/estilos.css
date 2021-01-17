@@ -519,11 +519,14 @@ font-size: 64px;
 .chapters-elements iframe{
   width:584px;
   height: 232px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  
+
 
   
  
 }
+
 
 .chapters .second-title{
   font-family:  "IBM Plex Sans" , sans-serif;
@@ -536,7 +539,7 @@ font-size: 64px;
 .about-container  #celphone {
   width: 340px;
 height: 519px ;
-transform: translateY(-40px);
+transform: translateY(-60px);
 
 
 
@@ -558,13 +561,13 @@ transform: translateY(-40px);
 }
 .about-container{
 
-  width:65%;
+  width:60%;
     
  }
 .about-container,  .description, .secondary-title{
 
   width:90%;
-  padding: 20px 0;
+
  
     
  }
